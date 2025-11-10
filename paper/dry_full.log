@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  9 NOV 2025 22:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  9 NOV 2025 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -559,7 +559,8 @@ or `english'. on input line 21.
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
 
 ]
 (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
@@ -585,49 +586,50 @@ pdfTeX warning (font expansion): font should be expanded before its first use
 
 pdfTeX warning (font expansion): font should be expanded before its first use
 
+pdfTeX warning (font expansion): font should be expanded before its first use
 
 
 
-[2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}
+
+[2
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 95.
+(hyperref)                removing `math shift' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 95.
+(hyperref)                removing `subscript' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 95.
+(hyperref)                removing `math shift' on input line 97.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
 \OT1/cmr/m/n/10 (+20) Units: J/m\TS1/cmr/m/n/10 (+20) ³\OT1/cmr/m/n/10 (+20) . 
 Stress-energy: $\OML/cmm/m/it/10 T[] \OMS/cmsy/m/n/10 /
  []
 
 
-
-
-Overfull \hbox (28.19685pt too wide) in paragraph at lines 135--145
+Overfull \hbox (28.19685pt too wide) in paragraph at lines 126--136
  [][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 151.
+(hyperref)                removing `math shift' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 151.
+(hyperref)                removing `\pi' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 151.
+(hyperref)                removing `math shift' on input line 142.
 
 
 
@@ -636,8 +638,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.156 \end{equation}
-                    ]
+l.155 \end{thebibliography}
+                           ]
 
 
 
@@ -649,16 +651,16 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `dry_full.out' has not changed.
-(rerunfilecheck)             Checksum: 524A449B788784C49958D2E0C6232029;2169.
+(rerunfilecheck)             Checksum: 4E459DA00B3FF80EC172F86871F02030;1968.
  ) 
 Here is how much of TeX's memory you used:
- 17209 strings out of 473190
- 327968 string characters out of 5715801
- 735832 words of memory out of 5000000
- 40157 multiletter control sequences out of 15000+600000
+ 17207 strings out of 473190
+ 327936 string characters out of 5715801
+ 736840 words of memory out of 5000000
+ 40158 multiletter control sequences out of 15000+600000
  572938 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,10n,93p,1401b,1072s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,10n,93p,1411b,1163s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -680,10 +682,10 @@ xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/202
 5/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/
 texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/te
 xmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on dry_full.pdf (4 pages, 233982 bytes).
+Output written on dry_full.pdf (4 pages, 234690 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 31345 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 31337 words of extra memory for PDF output out of 35830 (max. 10000000)
 

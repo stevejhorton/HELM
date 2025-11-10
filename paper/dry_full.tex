@@ -15,7 +15,7 @@ Stephan "Steve" J. Horton\footnote{Network Architect, MS Cyber Security; Indepen
 
 \begin{abstract}
 \microtypesetup{protrusion=true}
-We propose a hierarchical elastic lattice model in which the Planck constant $\hbar$, gravitational constant $G$, and cosmological constant $\Lambda$ emerge from a single underlying substrate characterized by QCD-scale string tension. The model postulates two nested lattice structures with spacings $a_0 = 0.8414$ fm and $a_g = 0.475$ fm, both sharing the same elastic tension $\sigma = 1.403 \times 10^5$ J/m. We show that quantum mechanics emerges at the hadronic scale via $\hbar = \sigma a_0^2 / (\pi c)$ with 0.04\% agreement, gravity emerges at the sub-lattice scale via $G = \sigma a_g^2 c / m_{\rm Pl}^2$ with 0.00\% agreement, and dark energy emerges from cosmic-scale strain via $\rho_\Lambda = (\sigma / a_0^3) u_{\rm cosmic}^2$ with $u \sim 10^{-15}$. This framework addresses the cosmological constant problem by defining the vacuum as the lattice's relaxed state, where only long-wavelength strain contributes to $\Lambda$. This framework satisfies the DRY principle: Nature uses one elastic substrate at multiple scales—femtometre (quantum mechanics), sub-femtometre (gravity), and cosmic (dark energy)—to generate fundamental physics.  The same substrate yields exact agreement with $G$ and derives the fine-structure constant $\alpha=1/137.036$ from a twist sector without new free parameters.
+We propose a hierarchical elastic lattice model in which the Planck constant $\hbar$, gravitational constant $G$, and cosmological constant $\Lambda$ emerge from a single underlying substrate characterized by QCD-scale string tension. The model postulates two nested lattice structures with spacings $a_0 = 0.8414$ fm and $a_g = 0.475$ fm, both sharing the same elastic tension $\sigma = 1.403 \times 10^5$ J/m. We show that quantum mechanics emerges at the hadronic scale via $\hbar = \sigma a_0^2 / (\pi c)$ with 0.04\% agreement, gravity emerges at the sub-lattice scale via $G = \sigma a_g^2 c / m_{\rm Pl}^2$ with 0.00\% agreement, and dark energy emerges from cosmic-scale strain via $\rho_\Lambda = (\sigma / a_0^3) u_{\rm cosmic}^2$ with $u \sim 10^{-15}$. This framework addresses the cosmological constant problem by defining the vacuum as the lattice's relaxed state, where only long-wavelength strain contributes to $\Lambda$. This framework satisfies the DRY principle: Nature uses one elastic substrate at multiple scalesâ€”femtometre (quantum mechanics), sub-femtometre (gravity), and cosmic (dark energy)â€”to generate fundamental physics.  The same substrate yields exact agreement with $G$ and derives the fine-structure constant $\alpha=1/137.036$ from a twist sector without new free parameters.
 \end{abstract}
 
 \begin{document}
@@ -79,6 +79,8 @@ G = \frac{\sigma a_g^2 c}{m_{\rm Pl}^2} = 6.6743 \times 10^{-11} \text{ m}^3\tex
 \end{equation}
 CODATA: $G = 6.6743 \times 10^{-11}$. \textbf{Agreement: 0.00\%}
 
+The sub-lattice spacing $a_g$ is \emph{predicted} (Section 3.1) from the requirement that both quantum and gravitational scales emerge from the same tension $\sigma$: from $\hbar c = \sigma a_g^2$ and $\hbar = \sigma a_0^2/(\pi c)$, we obtain $a_g = a_0/\sqrt{\pi}$.
+
 \subsection{Twist-Sector Electrodynamics}
 Each node carries an internal orientation angle $\theta\in[0,2\pi)$.  The elastic energy density is
 \[
@@ -95,11 +97,11 @@ Thus the same hadronic-scale tension $\sigma$ that yields $\hbar$, $G$, and $\La
 \subsection{Prediction of $a_g$}
 From $\hbar$ and $G$, solve for $a_g$:
 \begin{equation}
-a_g = \sqrt{\frac{G m_{\rm Pl}^2}{\sigma c}} = \sqrt{\frac{G (\hbar c / G)}{\sigma c}} = \sqrt{\frac{\hbar}{\sigma c}}
+a_g = \sqrt{\frac{G m_{\rm Pl}^2}{\sigma c}} = \sqrt{\frac{G (\hbar c / G)}{\sigma c}} = \sqrt{\frac{\hbar c}{\sigma}}
 \end{equation}
 Substitute $\hbar = \sigma a_0^2 / (\pi c)$:
 \begin{equation}
-a_g = \sqrt{\frac{\sigma a_0^2 / (\pi c)}{\sigma c}} = \frac{a_0}{\sqrt{\pi}} = 0.475 \text{ fm}
+a_g = \sqrt{\frac{[\sigma a_0^2 / (\pi c)] \cdot c}{\sigma}} = \sqrt{\frac{a_0^2}{\pi}} = \frac{a_0}{\sqrt{\pi}} = 0.475 \text{ fm}
 \end{equation}
 \textbf{Predicted}, not assumed.
 
@@ -116,17 +118,6 @@ Volumetric energy density:
 \rho_\Lambda = \frac{\sigma}{a_0^3} u_{\rm cosmic}^2, \quad u_{\rm cosmic} = 2.2 \times 10^{-15}
 \end{equation}
 Units: J/m³. Stress-energy: $T_{\mu\nu} \propto \mathrm{diag}(-\rho,-\rho,-\rho,-\rho) \to w = -1$.
-
-\subsection{Twist-Sector Electrodynamics}
-Node rotation $\theta \in [0,2\pi)$:
-\begin{equation}
-\mathcal{L} = \frac{\kappa}{2} (\partial_\mu \theta - A_\mu)^2, \quad \kappa = \sigma a_0^2
-\end{equation}
-Quantized circulation $\Phi_0 = h/e$. Coupling:
-\begin{equation}
-\alpha = \frac{e^2}{4\pi \epsilon_0 \hbar c} = \frac{1}{137.036}
-\end{equation}
-from lattice scale.
 
 \section{Experimental Validation}
 \begin{table}[h]
