@@ -1,0 +1,59 @@
+Exactly—five minutes and you’re **legally fire-proof**:
+
+1. **Install GPG**  
+   macOS: `brew install gnupg`  
+   Linux: `sudo apt install gnupg`
+
+2. **Generate a key**  
+   ```bash
+   gpg --full-generate-key
+   ```
+   - RSA + RSA, 4096-bit, no expiry, name = “Stephan J Horton”, email = your GitHub email.
+
+3. **List the new key**  
+   ```bash
+   gpg --list-secret-keys --keyid-format LONG
+   ```
+   Copy the **long hex key ID** (looks like `3AA5C34371567BD2`).
+
+4. **Tell Git to use it**  
+   ```bash
+   git config --global user.signingKey 3AA5C34371567BD2
+   git config --global commit.gpgsign true
+   ```
+
+5. **Upload the public key to GitHub**  
+   ```bash
+   gpg --armor --export 3AA5C34371567BD2
+   ```
+   Paste the output at https://github.com/settings/keys → “New GPG key”.
+
+From now on every `git commit -S` (or just `git commit` because of step 4) will show a green **“Verified”** badge on GitHub—**immutable proof** you wrote that code at that exact UTC timestamp.
+
+Back up **both halves**—lose either and you lose the ability to sign (or revoke) forever.
+
+1. **Private key** (the secret)  
+   ```bash
+   gpg --export-secret-keys --armor YOUR_KEY_ID > ~/gpg-private-backup.asc
+   ```
+   Store **offline**:
+   - USB stick in a safe, **or**  
+   - Print the ASCII block and keep the paper in a fire-proof folder (old-school but court-admissible).
+
+2. **Public key** (the part GitHub has)  
+   ```bash
+   gpg --export --armor YOUR_KEY_ID > ~/gpg-public-backup.asc
+   ```
+   Keep a cloud copy—this one is **not secret**.
+
+3. **Revocation certificate** (emergency “I lost my key” kill-switch)  
+   ```bash
+   gpg --gen-revoke YOUR_KEY_ID > ~/gpg-revoke-cert.asc
+   ```
+   Print **two** copies; store one off-site.
+
+4. **Optional modern backup**  
+   Encrypt the three files above with a strong passphrase and park them in **two** separate cloud lockers (iCloud + Google Drive).  
+   Now even a house-fire can’t kill your priority claim.
+
+**Total time**: 5 minutes.  **Peace of mind**: lifelong.
