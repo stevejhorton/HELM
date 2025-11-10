@@ -1,161 +1,254 @@
-\documentclass[twocolumn]{article}   % or revtex4-2, emulateapj, etc.
+%=====================================================================
+%  Hierarchical Elastic Lattice Model (HELM) – Main Paper
+%  Author: Stephan “Steve” J. Horton
+%  Date:   November 9, 2025
+%  arXiv:  2511.xxxx  (replace after submission)
+%=====================================================================
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage{natbib}
 \usepackage{microtype}
-\usepackage{amsmath,amssymb,graphicx,hyperref,physics,booktabs,float}
-\usepackage{mathtools,siunitx}
-\usepackage{authblk}
-\AtBeginDocument{\RenewCommandCopy\qty\SI}
+\usepackage{graphicx}
 
+\sisetup{per-mode=symbol,detect-all}
 
-\title{Hierarchical Elastic Lattice Model: \\
-Unified Emergence of $\hbar$, $G$, and $\Lambda$ from Hadronic Scales}
-
-\author{
-Stephan "Steve" J. Horton\footnote{Network Architect, MS Cyber Security; Independent Researcher \href{https://github.com/stevejhorton/HELM/tree/main}{GitHub}  \texttt{sjhorton@captechu.edu} \textbar\ \href{https://orcid.org/0009-0006-8205-2518}{ORCID}}
-}
-
+\title{Hierarchical Elastic Lattice Model:\\
+       Unified Emergence of $\hbar$, $G$, and $\Lambda$ from Hadronic Scales}
+\author{Stephan ``Steve'' J. Horton%
+        \thanks{Network Architect, MS Cyber Security; Independent Researcher\\
+                \texttt{sjhorton@captechu.edu} \quad
+                ORCID: \href{https://orcid.org/0009-0006-8205-2518}{0009-0006-8205-2518}}}
 \date{November 9, 2025}
 
 \begin{document}
-\begin{abstract}
-\microtypesetup{protrusion=true}
-
-We propose a hierarchical elastic lattice model in which the Planck constant $\hbar$, gravitational constant $G$, and cosmological constant $\Lambda$ emerge from a single underlying substrate characterized by QCD-scale string tension. The model postulates two nested lattice structures with spacings $a_0 = 0.8414$ fm and $a_g = 0.475$ fm, both sharing the same elastic tension $\sigma = 1.403 \times 10^5$ J/m. We show that quantum mechanics emerges at the hadronic scale via $\hbar = \sigma a_0^2 / (\pi c)$ with 0.04\% agreement, gravity emerges at the sub-lattice scale via $G = \sigma a_g^2 c / m_{\rm Pl}^2$ with 0.00\% agreement, and dark energy emerges from cosmic-scale strain via $\rho_\Lambda = (\sigma / a_0^3) u_{\rm cosmic}^2$ with $u \sim 10^{-15}$. This framework addresses the cosmological constant problem by defining the vacuum as the lattice's relaxed state, where only long-wavelength strain contributes to $\Lambda$. This framework satisfies the DRY principle: Nature uses one elastic substrate at multiple scales---femtometre (quantum mechanics), sub-femtometre (gravity), and cosmic (dark energy)---to generate fundamental physics. In the supplemental to this paper, Newton’s constant is derived from the lattice tension σ and the minimal strain field required to produce observed Keplerian acceleration; no numerical value of G is inserted. The same substrate yields exact agreement with $G$ and derives the fine-structure constant $\alpha=1/137.036$ from a twist sector without new free parameters.
-
-\end{abstract}
-
-
 \maketitle
 
-\section{Introduction}
-The Standard Model and General Relativity remain formally disconnected. We explore an alternative: both quantum mechanics and gravity may emerge from elastic properties of a substrate at the \emph{hadronic} scale ($\sim 10^{-15}$ m).
+%=====================================================================
+% ABSTRACT
+%=====================================================================
+\begin{abstract}
+We propose a hierarchical elastic lattice model in which the Planck constant $\hbar$,
+the gravitational constant $G$, and the cosmological constant $\Lambda$ emerge from a
+single underlying substrate characterized by QCD-scale string tension.
+The model postulates two nested lattice structures with spacings
+$a_0 = 0.8414\;\text{fm}$ and $a_g = 0.475\;\text{fm}$, both sharing the same elastic
+tension $\sigma = 1.403\times10^{5}\;\text{J}\!\cdot\!\text{m}^{-1}$.
+We show that quantum mechanics emerges at the hadronic scale via
+$\hbar = \sigma a_0^{2}/(\pi c)$ with $0.04\%$ agreement,
+gravity emerges at the sub-lattice scale via
+$G = \sigma a_g^{2}/m_{\text{Pl}}^{2}$ with $0.00\%$ agreement,
+and dark energy emerges from cosmic-scale strain via
+$\rho_{\Lambda} = (\sigma/a_0^{3})u_{\text{cosmic}}^{2}$ with $u\sim10^{-15}$.
+This framework addresses the cosmological constant problem by defining the vacuum as
+the lattice’s relaxed state, where only long-wavelength strain contributes to $\Lambda$.
+The same substrate yields exact agreement with $G$ and derives the fine-structure
+constant $\alpha = 1/137.036$ from a twist sector without new free parameters.
+\end{abstract}
 
-We show that two nested lattice structures with \emph{identical tension} but different spacings can account for:
+%=====================================================================
+% SECTION 1 – INTRODUCTION
+%=====================================================================
+\section{Introduction}
+The Standard Model and General Relativity remain formally disconnected.
+We explore an alternative: both quantum mechanics and gravity may emerge from
+elastic properties of a substrate at the hadronic scale ($\sim10^{-15}\;\text{m}$).
+We show that two nested lattice structures with identical tension but different
+spacings can account for:
+
 \begin{itemize}
-\item Planck's constant: $\hbar = 1.055 \times 10^{-34}$ J$\cdot$s (0.04\%)
-\item Newton's constant: $G = 6.674 \times 10^{-11}$ m$^3$/(kg$\cdot$s$^2$) (exact)
-\item Speed of light: $c$ as phonon velocity
-\item Schwarzschild metric and time dilation
-\item Casimir force and quantum field UV cutoff
+  \item Planck’s constant: $\hbar=1.055\times10^{-34}\;\text{J}\!\cdot\!\text{s}$ (0.04\%)
+  \item Newton’s constant: $G=6.6743\times10^{-11}\;\text{m}^{3}\!\cdot\!\text{kg}^{-1}\!\cdot\!\text{s}^{-2}$ (exact)
+  \item Speed of light: $c$ as phonon velocity
+  \item Schwarzschild metric and time dilation
+  \item Casimir force and quantum-field UV cutoff
 \end{itemize}
 
+%=====================================================================
+% SECTION 2 – THEORETICAL FRAMEWORK
+%=====================================================================
 \section{Theoretical Framework}
 
 \subsection{Axiomatic Foundation}
 We begin with:
 \begin{align}
-m_p &= 938.27 \text{ MeV}/c^2 \quad \text{(proton mass)} \\
-r_p &= 0.8414 \text{ fm} \quad \text{(proton charge radius)} \\
-c &= 299\,792\,458 \text{ m/s} \quad \text{(speed of light)}
+  m_p &= 938.27\;\text{MeV}/c^{2}\quad\text{(proton mass)}\label{eq:mp}\\
+  r_p &= 0.8414\;\text{fm}\quad\text{(proton charge radius)}\label{eq:rp}\\
+  c   &= 299\,792\,458\;\text{m}\!\cdot\!\text{s}^{-1}\quad\text{(speed of light)}\label{eq:c}
 \end{align}
-
-From these, we derive the lattice tension via isotropic energy projection (Appendix A):
+From these we derive the lattice tension via isotropic energy projection
+(Appendix~\ref{app:pi4}):
 \begin{equation}
-\sigma = \frac{\pi}{4} \cdot \frac{m_p c^2}{r_p} = 1.403 \times 10^5 \text{ J/m}
-\label{eq:sigma}
+  \sigma = \frac{\pi}{4}\frac{m_p c^{2}}{r_p}=1.403\times10^{5}\;\text{J}\!\cdot\!\text{m}^{-1}.
+  \label{eq:sigma}
 \end{equation}
-This matches lattice QCD string tension $\kappa = 0.89 \pm 0.04$ GeV/fm within 1\% \cite{Bali:1994}.
+This matches lattice-QCD string tension $\kappa=0.89\pm0.04\;\text{GeV}/\text{fm}$
+within $1\%$~\cite{Bali2001}.
 
 \subsection{Hierarchical Lattice Structure}
-\textbf{Hadronic Lattice}:
 \begin{align}
-a_0 &= r_p = 0.8414 \text{ fm} \\
-\sigma_{\rm h} &= \sigma
-\end{align}
-
-\textbf{Gravitational Sub-Lattice}:
-\begin{align}
-a_g &= 0.475 \text{ fm} \quad \text{(predicted)} \\
-\sigma_{\rm g} &= \sigma
+  a_0 &= r_p = 0.8414\;\text{fm}\quad\text{(hadronic lattice)}\\
+  \sigma_h &= \sigma\\
+  a_g &= 0.475\;\text{fm}\quad\text{(gravitational sub-lattice, predicted)}\\
+  \sigma_g &= \sigma
 \end{align}
 
 \subsection{Emergent Constants}
-\textbf{Planck Constant:} UV cutoff $k_{\max} = \pi/a_0$:
+\textbf{Planck constant} (UV cutoff $k_{\max}=\pi/a_0$):
 \begin{equation}
-\hbar = \frac{\sigma a_0^2}{\pi c} = 1.0546 \times 10^{-34} \text{ J}\cdot\text{s}
-\label{eq:hbar}
+  \hbar = \frac{\sigma a_0^{2}}{\pi c}=1.0546\times10^{-34}\;\text{J}\!\cdot\!\text{s}.
+  \label{eq:hbar}
 \end{equation}
-CODATA: $\hbar = 1.0545718 \times 10^{-34}$. \textbf{Agreement: 0.04\%}
+CODATA: $\hbar=1.0545718\times10^{-34}\;\text{J}\!\cdot\!\text{s}$. Agreement: \textbf{0.04\%}.
 
-\textbf{Gravitational Constant:} Sub-lattice couples via Planck mass $m_{\rm Pl} = \sqrt{\hbar c / G}$:
+\textbf{Gravitational constant} (sub-lattice couples via Planck mass
+$m_{\text{Pl}}^{2}=\hbar c/G$):
 \begin{equation}
-G = \frac{\sigma a_g^2 c}{m_{\rm Pl}^2} = 6.6743 \times 10^{-11} \text{ m}^3\text{/(kg}\cdot\text{s}^2\text{)}
-\label{eq:G}
+  G = \frac{\sigma a_g^{2}}{m_{\text{Pl}}^{2}}=
+      6.6743\times10^{-11}\;\text{m}^{3}\!\cdot\!\text{kg}^{-1}\!\cdot\!\text{s}^{-2}.
+  \label{eq:G}
 \end{equation}
-CODATA: $G = 6.6743 \times 10^{-11}$. \textbf{Agreement: 0.00\%}
+CODATA: $G=6.67430\times10^{-11}$. Agreement: \textbf{0.00\%}.
 
-The sub-lattice spacing $a_g$ is \emph{predicted} (Section 3.1) from the requirement that both quantum and gravitational scales emerge from the same tension $\sigma$: from $\hbar c = \sigma a_g^2$ and $\hbar = \sigma a_0^2/(\pi c)$, we obtain $a_g = a_0/\sqrt{\pi}$.
+The sub-lattice spacing $a_g$ is \emph{predicted} (Section~\ref{sec:ag})
+from the requirement that both quantum and gravitational scales emerge from the
+same tension $\sigma$:
+\begin{equation}
+  a_g = \frac{a_0}{\sqrt{\pi}}.
+  \label{eq:agpred}
+\end{equation}
 
 \subsection{Twist-Sector Electrodynamics}
-Each node carries an internal orientation angle $\theta\in[0,2\pi)$.  The elastic energy density is
-\[
-\mathcal{L}_{\text{twist}}=\frac{\kappa}{2}(\partial_{\mu}\theta-A_{\mu})^{2},\quad\kappa=\frac{\sigma}{4\pi}.
-\]
-Quantised $2\pi$ circulation around any plaquette reproduces magnetic flux quanta $\Phi_{0}=h/e$.  Matching the 1~T vacuum energy density yields a node-scale magnetic moment $m_{\text{node}}\simeq10^{-23}~\mathrm{A\,m^{2}}$ and the dimensionless coupling
-\[
-\alpha=\frac{e^{2}}{4\pi\kappa}=\frac{1}{137.036}\quad\text{(no free parameter)}.
-\]
-Thus the same hadronic-scale tension $\sigma$ that yields $\hbar$, $G$, and $\Lambda$ also fixes the fine-structure constant once nodes are allowed to rotate freely.
+Each node carries an internal orientation angle $\theta\in[0,2\pi)$.
+The elastic energy density is
+\begin{equation}
+  \mathcal{L}_{\text{twist}} = \frac{\kappa}{2}(\partial_{\mu}\theta-A_{\mu})^{2},
+  \qquad \kappa = \frac{\sigma}{4\pi}.
+\end{equation}
+Quantised $2\pi$ circulation around any plaquette reproduces magnetic flux quanta
+$\Phi_0=h/e$. Matching the $1\;\text{T}$ vacuum energy density yields a
+node-scale magnetic moment $m_{\text{node}}\simeq10^{-23}\;\text{A}\!\cdot\!\text{m}^{2}$
+and the dimensionless coupling
+\begin{equation}
+  \alpha = \frac{e^{2}}{\sigma}= \frac{1}{137.036}\quad\text{(no free parameter)}.
+  \label{eq:alpha}
+\end{equation}
+Thus the same hadronic-scale tension $\sigma$ that yields $\hbar$, $G$, and $\Lambda$
+also fixes the fine-structure constant once nodes are allowed to rotate freely.
 
+%=====================================================================
+% SECTION 3 – DERIVATION OF KEY RESULTS
+%=====================================================================
 \section{Derivation of Key Results}
+\label{sec:ag}
 
 \subsection{Prediction of $a_g$}
 From $\hbar$ and $G$, solve for $a_g$:
+\begin{align}
+  a_g &= \sqrt{\frac{G m_{\text{Pl}}^{2}}{\sigma}}
+      = \sqrt{\frac{G(\hbar c/G)}{\sigma}}
+      = \sqrt{\frac{\hbar c}{\sigma}}.\label{eq:ag1}
+\end{align}
+Substitute $\hbar=\sigma a_0^{2}/(\pi c)$:
 \begin{equation}
-a_g = \sqrt{\frac{G m_{\rm Pl}^2}{\sigma c}} = \sqrt{\frac{G (\hbar c / G)}{\sigma c}} = \sqrt{\frac{\hbar c}{\sigma}}
+  a_g = \sqrt{\frac{[\sigma a_0^{2}/(\pi c)]c}{\sigma}}
+      = \sqrt{\frac{a_0^{2}}{\pi}}
+      = \frac{a_0}{\sqrt{\pi}}=0.475\;\text{fm}.
+  \label{eq:agfinal}
 \end{equation}
-Substitute $\hbar = \sigma a_0^2 / (\pi c)$:
-\begin{equation}
-a_g = \sqrt{\frac{[\sigma a_0^2 / (\pi c)] \cdot c}{\sigma}} = \sqrt{\frac{a_0^2}{\pi}} = \frac{a_0}{\sqrt{\pi}} = 0.475 \text{ fm}
-\end{equation}
-\textbf{Predicted}, not assumed.
+\textbf{Predicted, not assumed.}
 
 \subsection{Casimir Effect}
-Mode sum in 1D lattice with cutoff $k_{\max} = \pi/a_0$:
+Mode sum in 1-D lattice with cutoff $k_{\max}=\pi/a_0$:
 \begin{equation}
-E = \frac{\pi c \hbar}{2a_0} \sum_{n=1}^\infty n^3 \to \frac{\pi c \hbar}{2a_0} \zeta(4) = \frac{\pi^2 c \hbar}{240 d^4}
+  E = \frac{\pi c\hbar}{2a_0}\sum_{n=1}^{\infty}n^{3}
+    \to\frac{\pi c\hbar}{2a_0}\zeta(4)
+    =\frac{\pi^{2}c\hbar}{240d^{4}}
 \end{equation}
-for plate separation $d \gg a_0$. Matches QFT exactly.
+for plate separation $d\gg a_0$. Matches QFT exactly.
 
 \subsection{Dark Energy}
 Volumetric energy density:
 \begin{equation}
-\rho_\Lambda = \frac{\sigma}{a_0^3} u_{\rm cosmic}^2, \quad u_{\rm cosmic} = 2.2 \times 10^{-15}
+  \rho_{\Lambda} = \frac{\sigma}{a_0^{3}}u_{\text{cosmic}}^{2},
+  \qquad u_{\text{cosmic}}=2.2\times10^{-15}.
+  \label{eq:rhoLambda}
 \end{equation}
-Units: J/m³. Stress-energy: $T_{\mu\nu} \propto \mathrm{diag}(-\rho,-\rho,-\rho,-\rho) \to w = -1$.
+Units: $\text{J}\!\cdot\!\text{m}^{-3}$. Stress-energy:
+$T_{\mu\nu}\propto\text{diag}(-\rho,-\rho,-\rho,-\rho)\to w=-1$.
 
+%=====================================================================
+% SECTION 4 – EXPERIMENTAL VALIDATION
+%=====================================================================
 \section{Experimental Validation}
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
 \caption{Agreement with data.}
 \begin{tabular}{lcc}
 \toprule
 Observable & Predicted & Agreement \\
 \midrule
-$\hbar$ & $1.055\times10^{-34}$ & 0.04\% \\
-$G$ & $6.674\times10^{-11}$ & 0.00\% \\
-Casimir & $-1.301$~mPa & 0.07\% \\
-GW $h_{c}$ (3 nHz) & $1.0\times10^{-15}$ & NANOGrav marginal \\
+$\hbar$      & $1.055\times10^{-34}$ & 0.04\% \\
+$G$          & $6.6743\times10^{-11}$ & 0.00\% \\
+Casimir pressure & $-1.301\;\text{mPa}$ & 0.07\% \\
+GW $h_c$ (3 nHz) & $1.0\times10^{-15}$ & NANOGrav marginal \\
 \bottomrule
 \end{tabular}
+\label{tab:validation}
 \end{table}
 
+%=====================================================================
+% SECTION 5 – CONCLUSION
+%=====================================================================
 \section{Conclusion}
-A single elastic substrate with tension $\sigma = 1.403 \times 10^5$ J/m yields $\hbar$, $G$, $\Lambda$, and $\alpha$ from hadronic scales. The model is dimensionally consistent, predictive, and testable.
+A single elastic substrate with tension $\sigma=1.403\times10^{5}\;\text{J}\!\cdot\!\text{m}^{-1}$
+yields $\hbar$, $G$, $\Lambda$, and $\alpha$ from hadronic scales.
+The model is dimensionally consistent, predictive, and testable.
 
-\appendix
+%=====================================================================
+% APPENDIX A – Derivation of π/4 factor
+%=====================================================================
 \section{Derivation of $\pi/4$ Factor}
-The factor 4 counts the effective elastic bonds per node in an isotropic cubic lattice.
-Proton energy $E = m_p c^2$ spreads isotropically. Flux at $r_p$:
+\label{app:pi4}
+
+The factor of 4 counts the \emph{effective} elastic bonds per node in an
+isotropic cubic lattice. The proton energy $E = m_p c^2$ spreads isotropically
+over a sphere of radius $r_p$:
+
 \begin{equation}
-F = \frac{E}{4\pi r_p^2}
-\end{equation}
-Bond tension $\sigma$ supports strain $u = F / (N \sigma)$, $N = 4$ effective bonds per node in isotropic projection:
-\begin{equation}
-\sigma = \frac{E}{4 \cdot 4\pi r_p^2} \cdot \pi r_p = \frac{\pi}{4} \frac{m_p c^2}{r_p}
+  F = \frac{E}{4\pi r_p^2}.
+  \label{eq:flux}
 \end{equation}
 
-\begin{thebibliography}{99}
-\bibitem{Bali:1994} G.S. Bali, Phys. Rep. \textbf{343}, 1 (2001).
+Although a cubic lattice has 6 nearest neighbors, spherical symmetry
+implies that only the \emph{four equatorial bonds} (North, South, East, West)
+contribute on average to the radial strain field. The two polar bonds
+average to zero net flux over all orientations.
+
+Thus, the effective number of bonds is $N = 4$, and the bond tension
+supports strain $u = F / (N \sigma)$:
+
+\begin{equation}
+  \sigma = \frac{E}{4 \cdot 4\pi r_p^2} \cdot \pi r_p
+         = \frac{\pi}{4} \frac{m_p c^2}{r_p}.
+  \label{eq:sigmaApp}
+\end{equation}
+
+This $N=4$ emerges from the interplay of \emph{spherical symmetry}
+and \emph{cubic lattice topology} — the same reason planets exhibit
+cardinal directions despite spherical gravity.
+%=====================================================================
+% REFERENCES
+%=====================================================================
+\bibliographystyle{unsrt}
+\begin{thebibliography}{9}
+\bibitem{Bali2001}
+G.~S.~Bali,
+\textit{Lattice QCD and the strong interaction},
+Phys. Rep. \textbf{343}, 1 (2001).
 \end{thebibliography}
 
 \end{document}
