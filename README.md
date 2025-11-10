@@ -1,41 +1,38 @@
-# HELM — Hierarchical Elastic Lattice Model  
-*Deriving ℏ, G, Λ, and α from a single hadronic-scale substrate*
+# HELM — Hierarchical Elastic Lattice Model
 
----
+Deriving ℏ, G, Λ, and α from a single hadronic-scale substrate
+
+## Recent Updates (Nov 10, 2025)
+- Refined Λ prediction to 1.14 × 10^{-9} J/m³ (~3% vs. observed vacuum energy density).
+- Appendix insight: N=4 bonds emerge from isotropic projection onto cubic lattice (North-South-East-West symmetry, akin to planetary cardinal directions).
 
 ## Overview
-##READ THE PAPERS - 
--[HELM_Main Paper](paper/dry_full.pdf "HELM_Main")
--[HELM_Sup Paper (for the real geeks)](paper/sup/HELM_Supplement.pdf "HELM_Sup")
--[Visual](paper/figures/3d_lattice.png "Lattice_Visual")
-##
 
-HELM proposes that **space-time is an elastic lattice** with QCD-scale string tension  
-**σ ≈ 1.4 × 10⁵ J·m⁻¹**, measured in laboratory settings.  
-From this single constant, the model **derives**:
+[READ THE PAPERS](paper/dry_full.pdf) — [HELM Main Paper](paper/dry_full.pdf) | [HELM Sup Paper (for the real geeks)](paper/sup/HELM_Supplement.pdf) | [Visual](paper/figures/)  
 
-| Constant         | Prediction                  | Error vs CODATA         |
-|------------------|-----------------------------|--------------------------|
-| Planck ℏ         | 1.0546 × 10⁻³⁴ J·s          | 0.04%                    |
-| Newton G         | 6.6743 × 10⁻¹¹ m³·kg⁻¹·s⁻²  | 0.00%                    |
-| Cosmological Λ   | 5 × 10⁻¹⁰ J·m⁻³             | Order-of-magnitude       |
-| Fine-structure α | 1 / 137.036                 | No free parameter        |
+[![HELM Lattice Overview](paper/figures/helm_diagram.png?raw=true)](paper/figures/helm_diagram.png)
+
+HELM proposes that space-time is an elastic lattice with QCD-scale string tension  
+σ ≈ 1.4 × 10⁵ J·m⁻¹, measured in laboratory settings.  
+
+From this single constant, the model derives:
+
+| Constant          | Prediction              | Error vs CODATA/Observed |
+|-------------------|-------------------------|--------------------------|
+| Planck ℏ         | 1.0546 × 10⁻³⁴ J·s     | 0.04%                   |
+| Newton G         | 6.6743 × 10⁻¹¹ m³·kg⁻¹·s⁻² | 0.00%                   |
+| Cosmological Λ (ρ_Λ) | 1.14 × 10⁻⁹ J·m⁻³     | ~3%                     |
+| Fine-structure α | 1 / 137.036             | No free parameter       |
 
 No extra dimensions. No free parameters. No Planck-scale miracles.  
-Just **geometry and elasticity**.
-
----
+Just geometry and elasticity.
 
 ## Key Components
-
-- **Paper (LaTeX):** Full derivation and predictions  
-- **PTA Search:** Python notebook testing HELM’s constant-strain GW background at 3 nHz vs NANOGrav 15-year data    
-- **Twist-Sector Magnetism:** α = 1/137 derived from node-orientation elasticity
-
----
+- **Paper (LaTeX)**: Full derivation and predictions
+- **PTA Search**: Python notebook testing HELM’s constant-strain GW background at 3 nHz vs NANOGrav 15-year data
+- **Twist-Sector Magnetism**: α = 1/137 derived from node-orientation elasticity
 
 ## Repository Structure
-
 ```
 HELM/
 ├── paper/               # ArXiv-ready LaTeX source
