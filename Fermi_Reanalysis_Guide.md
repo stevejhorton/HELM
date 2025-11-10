@@ -5,7 +5,7 @@
 
 ## The Claim
 
-HELM predicts that Hawking radiation from evaporating primordial black holes (PBHs) is **12.6× hotter** than standard theory predicts, shifting peak emission from ~1 GeV to ~100 MeV. The signature should already exist in 17 years of Fermi data, mislabeled as "unidentified sources."
+HELM predicts that Hawking radiation from evaporating primordial black holes (PBHs) is **12.6× hotter** than standard theory predicts, shifting peak emission from ~1 GeV to ~100 MeV. The signature should already exist in 17 years of Fermi data, mislabeled as "unidentified sources." The logic behind this shift is a simple matter of statistics. The HELM Model lines up so perfectly in so many known correct and observed areas with no tuning, that when we saw the calcs come back as "out of alignment" with Hawking's projected numbers (for something never before observed), we figured we'd run with it and see if THAT is why it's never actaully been observed. Time will tell.  
 
 ---
 
@@ -163,9 +163,9 @@ M_0 ~ 5×10^14 g  (standard theory)
 If you find NOTHING matching these criteria:
 - Either PBHs don't make up dark matter, OR
 - HELM's 4π correction is wrong, OR
-- Standard Hawking formula is correct and bursts are too faint
+- Standard Hawking formula is correct and bursts are just too faint
 
-But given the 1300+ unidentified sources already cataloged, **something is there**.
+But given the 1300+ unidentified sources already cataloged, **something may be there**.
 
 ---
 
