@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  10 NOV 2025 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  10 NOV 2025 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**dry_full_corrected.tex
-(./dry_full_corrected.tex
+**dry_full.tex
+(./dry_full.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -431,8 +431,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-(./dry_full_corrected.aux)
-\openout1 = `dry_full_corrected.aux'.
+(./dry_full.aux)
+\openout1 = `dry_full.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -498,9 +498,9 @@ e
 ))
 Package hyperref Info: Link coloring OFF on input line 18.
 
-(./dry_full_corrected.out) (./dry_full_corrected.out)
+(./dry_full.out) (./dry_full.out)
 \@outlinefile=\write3
-\openout3 = `dry_full_corrected.out'.
+\openout3 = `dry_full.out'.
 
 
 
@@ -540,6 +540,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
+
+! LaTeX Error: Unicode character σ (U+03C3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 ...ant is derived from the lattice tension σ
+                                                   and the minimal strain fi...
+
+? 
+
 
 
 
@@ -619,22 +632,22 @@ l.159 \end{thebibliography}
 
 [4
 
-] (./dry_full_corrected.aux)
+] (./dry_full.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `dry_full_corrected.out' has not changed.
+Package rerunfilecheck Info: File `dry_full.out' has not changed.
 (rerunfilecheck)             Checksum: 4E459DA00B3FF80EC172F86871F02030;1968.
  ) 
 Here is how much of TeX's memory you used:
- 17223 strings out of 473190
- 328218 string characters out of 5715801
- 735676 words of memory out of 5000000
- 40156 multiletter control sequences out of 15000+600000
- 573397 words of font info for 131 fonts, out of 8000000 for 9000
+ 17228 strings out of 473190
+ 328061 string characters out of 5715801
+ 735626 words of memory out of 5000000
+ 40157 multiletter control sequences out of 15000+600000
+ 573499 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,10n,93p,1432b,1164s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,10n,93p,1634b,1164s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -656,7 +669,7 @@ xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/202
 5/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/
 texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/te
 xmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on dry_full_corrected.pdf (4 pages, 234462 bytes).
+Output written on dry_full.pdf (4 pages, 235318 bytes).
 PDF statistics:
  217 PDF objects out of 1000 (max. 8388607)
  167 compressed objects within 2 object streams
