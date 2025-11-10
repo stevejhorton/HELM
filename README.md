@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1093166174.svg)](https://doi.org/10.5281/zenodo.17575761)
 # HELM — Hierarchical Elastic Lattice Model
 
 Deriving ℏ, G, Λ, and α from a single hadronic-scale substrate
