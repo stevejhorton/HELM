@@ -8,9 +8,23 @@ Deriving ℏ, G, Λ, and α from a single hadronic-scale substrate
 
 ## Overview
 
-[READ THE PAPERS](paper/dry_full.pdf) — [HELM Main Paper](paper/dry_full.pdf) | [HELM Sup Paper (for the real geeks)](paper/sup/HELM_Supplement.pdf) | [Visual](paper/figures/)  
+[READ THE PAPERS](paper/dry_full.pdf) — [HELM Main Paper](paper/dry_full.pdf) | [HELM Sup Paper (for the real geeks)](paper/sup/HELM_Supplement.pdf) | [Visual](paper/figures/3d_lattice.png)  
 
-[![HELM Lattice Overview](paper/figures/helm_diagram.png?raw=true)](paper/figures/helm_diagram.png)
+## Visual Overview
+
+<div align="center">
+  <a href="paper/figures/3d_lattice.png">
+    <img src="paper/figures/3d_lattice.png" 
+         alt="HELM Lattice Structure" 
+         width="500" 
+         style="border: 2px solid #1e3a8a; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
+  </a>
+  <br>
+  <small><i>Click to enlarge • Hierarchical lattice with QCD-scale bonds (σ = 1.4×10⁵ J/m). 
+  Hadronic scale (a₀ = 0.8414 fm) → ℏ. Sub-lattice (a_g = 0.475 fm) → G.</i></small>
+</div>
+
+[![HELM Lattice Overview](paper/figures/3d_lattice.png?raw=true)](paper/figures/3d_lattice.png)
 
 HELM proposes that space-time is an elastic lattice with QCD-scale string tension  
 σ ≈ 1.4 × 10⁵ J·m⁻¹, measured in laboratory settings.  
