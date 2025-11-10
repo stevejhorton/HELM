@@ -42,7 +42,7 @@ HELM/
 │   ├── README_PTA.md    # Run instructions
 │   └── chains/          # Output Bayes factors & corner plots
 ├── hardware/            # Printed Neural Lattice gerbers & firmware
-└── LICENSE              # MIT
+└── LICENSE              # GNU
 ```
 
 ---
