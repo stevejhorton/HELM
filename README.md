@@ -50,15 +50,17 @@ Just geometry and elasticity.
 ## Repository Structure
 ```
 HELM/
-├── paper/               # ArXiv-ready LaTeX source
+├── paper/                  # LaTeX source (and PDF)
 │   ├── dry_full.tex
 │   └── figures/
-├── pta/                 # NANOGrav 15-yr constant-strain search
-│   ├── lattice_pta.py   # Fail-fast, resumable MCMC
-│   ├── README_PTA.md    # Run instructions
-│   └── chains/          # Output Bayes factors & corner plots
-├── hardware/            # Printed Neural Lattice gerbers & firmware
-└── LICENSE              # GNU
+│   └──sup/
+│   ├── HELM_Supplement.pdf # LaTex Supplemental (and PDF)
+│   └── chains
+├── pta/                    # NANOGrav 15-yr constant-strain search
+│   ├── lattice_pta.py      # Fail-fast, resumable MCMC
+│   ├── README_PTA.md       # Run instructions
+│   └── chains/             # Output Bayes factors & corner plots
+└── LICENSE                 # GNU
 ```
 
 ---
