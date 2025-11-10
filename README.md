@@ -1,5 +1,3 @@
-Save as `README.md` in the repo root—GitHub will render it automatically.
-
 ```markdown
 # HELM — Hierarchical Elastic Lattice Model  
 *Deriving ℏ, G, Λ and α from a single hadronic-scale substrate*
@@ -33,7 +31,6 @@ No extra dimensions, no free parameters, no Planck-scale miracles—just **geome
 
 ## Repo Map
 
-```
 HELM/
 ├── paper/               % ArXiv-ready LaTeX source
 │   ├── dry_full.tex
@@ -44,7 +41,6 @@ HELM/
 │   └── chains/          % output Bayes factors & corner plots
 ├── hardware/            % Printed Neural Lattice gerbers & firmware
 └── LICENSE              % MIT
-```
 
 ---
 
