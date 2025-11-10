@@ -92,7 +92,7 @@ If you use HELM or the PTA code, please cite:
 @article{Horton2025HELM,
   title={Hierarchical Elastic Lattice Model: Unified Emergence of $\hbar$, $G$, $\Lambda$ and $\alpha$ from Hadronic Scales},
   author={Horton, Stephan J.},
-  journal={arXiv preprint arXiv:25xx.TBD},
+  journal={arXiv preprint under review},
   year={2025}
 }
 ```
