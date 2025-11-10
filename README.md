@@ -6,9 +6,8 @@ Deriving ℏ, G, Λ, and α from a single hadronic-scale substrate
 - Refined Λ prediction to 1.14 × 10^{-9} J/m³ (~3% vs. observed vacuum energy density).
 - Appendix insight: N=4 bonds emerge from isotropic projection onto cubic lattice (North-South-East-West symmetry, akin to planetary cardinal directions).
 
-## Overview
 
-[READ THE PAPERS](paper/dry_full.pdf) — [HELM Main Paper](paper/dry_full.pdf) | [HELM Sup Paper (for the real geeks)](paper/sup/HELM_Supplement.pdf) | [Visual](paper/figures/3d_lattice.png)  
+READ THE PAPERS — [HELM Main Paper](paper/dry_full.pdf) | [HELM Sup Paper (for the real geeks)](paper/sup/HELM_Supplement.pdf) | [Visual](paper/figures/3d_lattice.png)  
 
 ## Visual Overview
 
@@ -24,8 +23,8 @@ Deriving ℏ, G, Λ, and α from a single hadronic-scale substrate
   Hadronic scale (a₀ = 0.8414 fm) → ℏ. Sub-lattice (a_g = 0.475 fm) → G.</i></small>
 </div>
 
-[![HELM Lattice Overview](paper/figures/3d_lattice.png?raw=true)](paper/figures/3d_lattice.png)
 
+## Overview
 HELM proposes that space-time is an elastic lattice with QCD-scale string tension  
 σ ≈ 1.4 × 10⁵ J·m⁻¹, measured in laboratory settings.  
 
