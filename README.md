@@ -5,8 +5,8 @@
 
 ## Overview
 ##READ THE PAPERS - 
-[HELM_Main Paper](/tree/main/paper/dry_full.pdf "HELM_Main")
-[HELM_Sup Paper (for the real geeks)](/tree/main/papersup/HELM_Supplement.pdf "HELM_Sup")
+[HELM_Main Paper](paper/dry_full.pdf "HELM_Main")
+[HELM_Sup Paper (for the real geeks)](paper/sup/HELM_Supplement.pdf "HELM_Sup")
 
 [Visual](tree/main/paper/figures/3d_lattice.png "Lattice_Visual")
 ##
