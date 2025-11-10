@@ -27,8 +27,7 @@ Just **geometry and elasticity**.
 ## Key Components
 
 - **Paper (LaTeX):** Full derivation and predictions  
-- **PTA Search:** Python notebook testing HELM’s constant-strain GW background at 3 nHz vs NANOGrav 15-year data  
-- **Analog Solver:** Printed Neural Lattice hardware solving field equations at nanosecond/milliwatt scale  
+- **PTA Search:** Python notebook testing HELM’s constant-strain GW background at 3 nHz vs NANOGrav 15-year data    
 - **Twist-Sector Magnetism:** α = 1/137 derived from node-orientation elasticity
 
 ---
