@@ -5,6 +5,9 @@
 
 ## Overview
 
+Inline-style: 
+![alt text](https://github.com/stevejhorton/HELM/tree/main/paper/figures/3d_lattice.png "Lattice_Visual")
+
 HELM proposes that **space-time is an elastic lattice** with QCD-scale string tension  
 **σ ≈ 1.4 × 10⁵ J·m⁻¹**, measured in laboratory settings.  
 From this single constant, the model **derives**:
