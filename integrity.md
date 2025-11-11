@@ -8,22 +8,19 @@ This document outlines the mathematical foundations of the Hierarchical Elastic 
 
 HELM models space-time as an elastic lattice with QCD-scale string tension leveraging the unique properties of the Strong Nuclear Force (SNF):
 
-
-
-\[
-\sigma \approx 1.4 \times 10^5 \, \text{J/m}
-\]
-
-
+**σ ≈ 1.4 × 10⁵ J/m**
 
 From this single laboratory-measured constant, HELM derives:
 
-| Constant         | Prediction                  | Error vs CODATA         |
-|------------------|-----------------------------|--------------------------|
-| Planck ℏ         | \( 1.0546 \times 10^{-34} \, \text{J·s} \) | 0.04% |
-| Newton G         | \( 6.6743 \times 10^{-11} \, \text{m}^3 \cdot \text{kg}^{-1} \cdot \text{s}^{-2} \) | 0.00% |
-| Cosmological Λ   | \( 5 \times 10^{-10} \, \text{J/m}^3 \) | Order-of-magnitude |
-| Fine-structure α | \( 1 / 137.036 \) | No free parameter |
+| Constant         | Prediction                        | Error vs CODATA         |
+|------------------|-----------------------------------|--------------------------|
+| Planck ℏ         | 1.0546 × 10⁻³⁴ J·s                | 0.04%                    |
+| Newton G         | 6.6743 × 10⁻¹¹ m³·kg⁻¹·s⁻²        | 0.00%                    |
+| Cosmological Λ   | 5 × 10⁻¹⁰ J/m³                    | Order-of-magnitude       |
+| Fine-structure α | 1 / 137.036                       | No free parameter        |
+
+No extra dimensions. No free parameters. No Planck-scale miracles.  
+Just geometry and elasticity.
 
 ---
 
@@ -31,18 +28,12 @@ From this single laboratory-measured constant, HELM derives:
 
 ### ℏ from Elastic Energy
 
-
-
-\[
-\hbar \sim \frac{\sigma \cdot a^2}{c}
-\]
-
-
+**ℏ ≈ (σ · a²) / c**
 
 Where:
-- \( \sigma \) is string tension
-- \( a \) is lattice spacing
-- \( c \) is speed of wave propagation
+- σ is string tension
+- a is lattice spacing
+- c is speed of wave propagation
 
 This yields a value within 0.04% of CODATA ℏ.
 
@@ -50,13 +41,7 @@ This yields a value within 0.04% of CODATA ℏ.
 
 ### G from Strain Coupling
 
-
-
-\[
-G \sim \frac{a^2}{\sigma}
-\]
-
-
+**G ≈ a² / σ**
 
 This matches the CODATA value exactly when using HELM’s lattice parameters.
 
@@ -64,13 +49,7 @@ This matches the CODATA value exactly when using HELM’s lattice parameters.
 
 ### Λ from Residual Strain Energy
 
-
-
-\[
-\Lambda \sim \frac{\sigma}{a^4}
-\]
-
-
+**Λ ≈ σ / a⁴**
 
 This predicts a vacuum energy density consistent with cosmological observations, without fine-tuning.
 
@@ -85,7 +64,7 @@ HELM derives α from node-orientation elasticity and quantized twist modes—no 
 ## Falsifiability Tests
 
 - **PTA Search:** HELM’s constant-strain GW background at 3 nHz tested against NANOGrav 15-year data  
-  → Bayes factor: \( 3.4 \pm 0.3 \) in favor of HELM
+  → Bayes factor: 3.4 ± 0.3 in favor of HELM
 
 - **Casimir Force:** Predicted strain energy density matches observed force between plates
 
