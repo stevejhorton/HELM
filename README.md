@@ -12,7 +12,9 @@ READ THE PAPERS — [HELM Main Paper](paper/dry_full.pdf) | [HELM Sup Paper (for
 
 CHECK THE MATH - [HELM Integrity Breakdown](integrity.md)
 
-BE THE FIRST - [To Find Hawking Radiation](Fermi_Reanalysis_Guide.md)
+PBH - [The Search for Hawking Radiation](PBH_summary.md)
+
+PROOFS - [G](G_proof.md) | [Λ](HELM_back_pressure_proof.md) 
 
 ## Visual Overview
 
