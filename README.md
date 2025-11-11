@@ -38,9 +38,11 @@ From this single constant, the model derives:
 | Constant          | Prediction              | Error vs CODATA/Observed |
 |-------------------|-------------------------|--------------------------|
 | Planck ℏ         | 1.0546 × 10⁻³⁴ J·s     | 0.04%                   |
-| Newton G         | 6.6743 × 10⁻¹¹ m³·kg⁻¹·s⁻² | 0.00%                   |
+| Newton G         | 6.6743 × 10⁻¹¹ m³·kg⁻¹·s⁻² | Consistency (0.00%)*|
 | Cosmological Λ (ρ_Λ) | 1.14 × 10⁻⁹ J·m⁻³     | ~3%                     |
 | Fine-structure α | 1 / 137.036             | No free parameter       |
+
+*^*G emerges from the Planck coherence length λ_Pl = 2.18×10⁷ fm — the distance over which lattice strain accumulates to gravitational strength. This geometric hierarchy (λ_Pl / a_g ≈ 4.6×10⁷) explains why gravity is weak.*
 
 No extra dimensions. No free parameters. No Planck-scale miracles.  
 Just geometry and elasticity.
