@@ -9,6 +9,9 @@ Deriving ℏ, G, Λ, and α from a single hadronic-scale substrate
 
 
 READ THE PAPERS — [HELM Main Paper](paper/dry_full.pdf) | [HELM Sup Paper (for the real geeks)](paper/sup/HELM_Supplement.pdf) | [Visual](paper/figures/3d_lattice.png)  
+
+CHECK THE MATH - [HELM Main Paper](integrity.md)
+
 BE THE FIRST - [To Find Hawking Radiation](Fermi_Reanalysis_Guide.md)
 
 ## Visual Overview
