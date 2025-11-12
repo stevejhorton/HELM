@@ -1,8 +1,6 @@
 ---
-
-### ✅ **What the Papers Actually Claim**
-
-#### 1. **Newton’s Constant \( G \)**
+What the Papers Actually Claim
+#### 1. Newton’s Constant \( G \)
 - **From `HELM_full.tex` (Eq. 6–7):**
   \[
   G = \frac{\sigma a_g^2}{m_{\text{Pl}}^2}
@@ -45,7 +43,7 @@
 
 ---
 
-### ❌ **What Reviewer Got Wrong**
+### **What Reviewer Got Wrong**
 
 | **Claim** | **Review's Version** | **Actual Papers** |
 |-----------|--------------------|--------------------|
