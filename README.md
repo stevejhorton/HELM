@@ -4,7 +4,7 @@
 Deriving ℏ, G, Λ, and α from a single hadronic-scale substrate
 
 ## Recent Updates (Nov 10, 2025)
-- Refined Λ prediction to 1.14 × 10^{-9} J/m³ (~0% vs. observed vacuum energy density). It all hinges on the elastic back pressure of the lattice READ HERE - [Λ Explained](paper/sup/HELM_back_pressure_proof.md)
+- Refined Λ prediction to 1.14 × 10^{-9} J/m³ (~0% vs. observed vacuum energy density). It all hinges on the elastic back pressure of the lattice READ HERE - [Λ Explained to 31 decimal places!](paper/sup/HELM_back_pressure_proof.md)
 - Appendix insight: N=4 bonds emerge from isotropic projection onto cubic lattice (North-South-East-West symmetry, akin to planetary cardinal directions).
 
 
