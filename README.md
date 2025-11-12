@@ -14,7 +14,7 @@ CHECK THE MATH - [HELM Integrity Breakdown](integrity.md)
 
 PBH - [The Search for Hawking Radiation](PBH_summary.md)
 
-PROOFS - [G](paper/sup/G_proof.md) | [Λ](paper/sup/HELM_back_pressure_proof.md) 
+PROOFS - [ALL_OF_HELM (to run locally](paper/sup/HELM_proof.py)|[G](paper/sup/G_proof.md) | [Λ](paper/sup/HELM_back_pressure_proof.md) 
 
 REVIEWS - [AI - Deep Research](HELM_Review.md)
 
