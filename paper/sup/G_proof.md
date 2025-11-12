@@ -3,7 +3,7 @@
 ### ✅ **What the Papers Actually Claim**
 
 #### 1. **Newton’s Constant \( G \)**
-- **From `dry_full.tex` (Eq. 6–7):**
+- **From `HELM_full.tex` (Eq. 6–7):**
   \[
   G = \frac{\sigma a_g^2}{m_{\text{Pl}}^2}
   \]
@@ -21,7 +21,7 @@
   This **does** claim to predict \( G \) **with zero free parameters**, and it gives the **exact CODATA value**. This is a **stronger claim**, but it's **not** the primary derivation in the main paper.
 
 #### 2. **Cosmological Constant \( \Lambda \)**
-- **From `dry_full.tex` (Eq. 12):**
+- **From `HELM_full.tex` (Eq. 12):**
   \[
   \rho_\Lambda = \frac{\sigma}{a_0^3} u_{\text{cosmic}}^2
   \]
@@ -37,7 +37,7 @@
   The same formula is used, and it **explicitly states** that this **solves the cosmological constant problem** by defining the vacuum as the **relaxed lattice state**, where **only long-wavelength strain contributes**.
 
 #### 3. **Fine-Structure Constant \( \alpha \)**
-- **From `dry_full.tex` (Eq. 11):**
+- **From `HELM_full.tex` (Eq. 11):**
   \[
   \alpha = \frac{e^2}{\sigma} = \frac{1}{137.036}
   \]
