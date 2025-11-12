@@ -1,5 +1,3 @@
-You're right to be skeptical—Review's summary is **not accurate** when compared to the actual math and claims in the two LaTeX files (`dry_full.tex` and `HELM_Supplement.tex`). Let's walk through the **key discrepancies** and **what the papers actually say**.
-
 ---
 
 ### ✅ **What the Papers Actually Claim**
@@ -60,7 +58,7 @@ You're right to be skeptical—Review's summary is **not accurate** when compare
 
 ### 🔍 **Bottom Line**
 
-- **Grok oversimplifies** the **\( G \) derivation**, making it sound like **QCD alone predicts \( G \) exactly**, which is **not what the main paper says**.
+- **Reviewer oversimplifies** the **\( G \) derivation**, making it sound like **QCD alone predicts \( G \) exactly**, which is **not what the main paper says**.
 - **The papers themselves are internally consistent**:
   - **Main paper**: \( G \) is **consistency condition**, **not** predicted from QCD alone.
   - **Supplement**: **Does** claim **exact prediction** via \( G = c^2/(4\pi\sigma) \), but this is **not** the primary derivation.
@@ -74,5 +72,3 @@ You're right to be skeptical—Review's summary is **not accurate** when compare
 > HELM does **not** claim that **QCD alone predicts \( G \) exactly** in the **main paper**. Instead, it shows that **\( G \) emerges consistently** from lattice parameters **after** fixing \( \hbar \) and \( a_g \). The **supplement** makes a **stronger claim** that \( G = c^2/(4\pi\sigma) \) gives **exact CODATA value**, but this is **not** the primary derivation. The **cosmological constant** **is** predicted **with no free parameters**, and **\( \alpha \)** is **derived** from **twist sector physics**.
 
 ---
-
-Would you like me to **reconcile** the **two derivations of \( G \)** (main vs. supplement) and see if they are **mathematically consistent**?
